@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/fact_text"
+        android:text="@string/greeting" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/view_fact"
+        android:onClick="vFact"
+        android:text="@string/show_fact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fact_text"
+        android:textSize="15dp"
+        />
+    <Button
+        android:id="@+id/new_fact"
+        android:onClick="nFact"
+        android:text="@string/new_fact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/view_fact"
+        android:layout_toRightOf="@id/view_fact"
+        android:layout_alignTop="@id/view_fact"
+        android:textSize="15dp"/>
+    <!--<Button-->
+        <!--android:id="@+id/remove_fact"-->
+        <!--android:onClick="rFact"-->
+        <!--android:text="@string/remove_fact"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toEndOf="@id/new_fact"-->
+        <!--android:layout_toRightOf="@id/new_fact"-->
+        <!--android:layout_alignTop="@id/view_fact"-->
+        <!--android:textSize="15dp"/>-->
+    <ImageView
+        android:id="@+id/cute_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cat_sweater"
+        android:layout_below="@id/new_fact"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>

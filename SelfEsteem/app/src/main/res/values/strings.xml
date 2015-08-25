@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SelfEsteem</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="greeting">I hope your day is as wonderful as you are!</string>
+    <string name="show_fact">Show Fact</string>
+    <string name="new_fact">New Fact</string>
+    <string name="add">Add New</string>
+    <string name="cancel">Cancel</string>
+    <string name="hint">e.g. "eyes" or "sense of humor"</string>
+    <string name="remove_fact">Delete Current Fact</string>
+
+
+</resources>
